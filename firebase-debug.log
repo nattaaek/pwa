@@ -1,0 +1,54 @@
+[debug] [2017-06-24T16:47:35.000Z] ----------------------------------------------------------------------
+[debug] [2017-06-24T16:47:35.008Z] Command:      C:\Program Files\nodejs\node.exe C:\Users\Baimai\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase deploy
+[debug] [2017-06-24T16:47:35.010Z] CLI Version:  3.9.1
+[debug] [2017-06-24T16:47:35.010Z] Platform:     win32
+[debug] [2017-06-24T16:47:35.010Z] Node Version: v6.10.2
+[debug] [2017-06-24T16:47:35.011Z] Time:         Sat Jun 24 2017 23:47:35 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-06-24T16:47:35.012Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-06-24T16:47:35.077Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-06-24T16:47:35.078Z] > authorizing via signed-in user
+[debug] [2017-06-24T16:47:35.082Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2017-06-24T16:47:35.082Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token { refresh_token: '1/ax_w3v6qbAlZ82w4pzuEttDaciz9lsf-euQPBrs-3Yk',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Sat Jun 24 2017 23:47:35 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-06-24T16:47:35.433Z] <<< HTTP RESPONSE 200
+[debug] [2017-06-24T16:47:35.447Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/pwahack-f47d4  
+ Sat Jun 24 2017 23:47:35 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-06-24T16:47:36.865Z] <<< HTTP RESPONSE 200
+[debug] [2017-06-24T16:47:36.867Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/pwahack-f47d4/tokens  
+ Sat Jun 24 2017 23:47:36 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-06-24T16:47:37.860Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'pwahack-f47d4'...
+[info] 
+[info] i  deploying database, functions, hosting
+[info] +  database: rules ready to deploy.
+[debug] [2017-06-24T16:47:40.353Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "dependencies": {
+    "firebase-admin": "~4.2.1",
+    "firebase-functions": "^0.5.7"
+  },
+  "private": true
+}
+[info] i  functions: ensuring necessary APIs are enabled...
+[info] i  runtimeconfig: ensuring necessary APIs are enabled...
+[debug] [2017-06-24T16:47:40.361Z] >>> HTTP REQUEST GET https://servicemanagement.googleapis.com/v1/services/cloudfunctions.googleapis.com/projectSettings/pwahack-f47d4?view=CONSUMER_VIEW  
+ Sat Jun 24 2017 23:47:40 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-06-24T16:47:40.362Z] >>> HTTP REQUEST GET https://servicemanagement.googleapis.com/v1/services/runtimeconfig.googleapis.com/projectSettings/pwahack-f47d4?view=CONSUMER_VIEW  
+ Sat Jun 24 2017 23:47:40 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-06-24T16:47:42.108Z] <<< HTTP RESPONSE 200
+[info] +  runtimeconfig: all necessary APIs are enabled
+[debug] [2017-06-24T16:47:42.295Z] <<< HTTP RESPONSE 200
+[info] +  functions: all necessary APIs are enabled
+[debug] [2017-06-24T16:47:42.297Z] >>> HTTP REQUEST GET https://appengine.googleapis.com/v1/apps/pwahack-f47d4  
+ Sat Jun 24 2017 23:47:42 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-06-24T16:47:42.297Z] >>> HTTP REQUEST GET https://apikeys.googleapis.com/v1/projects/pwahack-f47d4/apiKeys  
+ Sat Jun 24 2017 23:47:42 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-06-24T16:47:43.832Z] <<< HTTP RESPONSE 200
+[debug] [2017-06-24T16:47:43.939Z] <<< HTTP RESPONSE 200

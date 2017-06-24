@@ -31,7 +31,7 @@ $('#random').on("click", function random(e) {
         default:
             break;
     }
-    ('.type').text(category);
+    $('.type').text(category);
 });
 
 
