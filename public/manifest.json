@@ -1,0 +1,29 @@
+{
+    "short_name": "Fucking Random foods",
+    "name": "HarvestIdea",
+    "start_url": "index.html?launcher=true",
+    "background_color": "#2196F3",
+    "display": "standalone",
+    "theme_color": "aliceblue",
+    "icons": [{
+            "src": "images/cat_hungry1x.png",
+            "type": "image/png",
+            "sizes": "48x48"
+        },
+        {
+            "src": "images/cat_hungry2x.png",
+            "type": "image/png",
+            "sizes": "96x96"
+        },
+        {
+            "src": "images/cat_hungry4x.png",
+            "type": "image/png",
+            "sizes": "192x192"
+        },
+        {
+            "src": "images/cat_hungry4x.png",
+            "type": "image/png",
+            "sizes": "512x512"
+        }
+    ]
+}

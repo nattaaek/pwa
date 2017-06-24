@@ -1,0 +1,44 @@
+[debug] [2017-06-24T19:30:24.534Z] ----------------------------------------------------------------------
+[debug] [2017-06-24T19:30:24.536Z] Command:      C:\Program Files\nodejs\node.exe C:\Users\Baimai\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase deploy
+[debug] [2017-06-24T19:30:24.536Z] CLI Version:  3.9.1
+[debug] [2017-06-24T19:30:24.536Z] Platform:     win32
+[debug] [2017-06-24T19:30:24.536Z] Node Version: v6.10.2
+[debug] [2017-06-24T19:30:24.537Z] Time:         Sun Jun 25 2017 02:30:24 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-06-24T19:30:24.537Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-06-24T19:30:24.547Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-06-24T19:30:24.548Z] > authorizing via signed-in user
+[debug] [2017-06-24T19:30:24.549Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/pwahack-f47d4  
+ Sun Jun 25 2017 02:30:24 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-06-24T19:30:26.311Z] <<< HTTP RESPONSE 200
+[debug] [2017-06-24T19:30:26.313Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/pwahack-f47d4/tokens  
+ Sun Jun 25 2017 02:30:26 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-06-24T19:30:27.354Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'pwahack-f47d4'...
+[info] 
+[info] i  deploying database, functions, hosting
+[info] +  database: rules ready to deploy.
+[debug] [2017-06-24T19:30:29.853Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "dependencies": {
+    "firebase-admin": "~4.2.1",
+    "firebase-functions": "^0.5.7"
+  },
+  "private": true
+}
+[info] i  functions: ensuring necessary APIs are enabled...
+[info] i  runtimeconfig: ensuring necessary APIs are enabled...
+[debug] [2017-06-24T19:30:29.858Z] >>> HTTP REQUEST GET https://servicemanagement.googleapis.com/v1/services/cloudfunctions.googleapis.com/projectSettings/pwahack-f47d4?view=CONSUMER_VIEW  
+ Sun Jun 25 2017 02:30:29 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-06-24T19:30:29.858Z] >>> HTTP REQUEST GET https://servicemanagement.googleapis.com/v1/services/runtimeconfig.googleapis.com/projectSettings/pwahack-f47d4?view=CONSUMER_VIEW  
+ Sun Jun 25 2017 02:30:29 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-06-24T19:30:31.638Z] <<< HTTP RESPONSE 200
+[info] +  runtimeconfig: all necessary APIs are enabled
+[debug] [2017-06-24T19:30:31.742Z] <<< HTTP RESPONSE 200
+[info] +  functions: all necessary APIs are enabled
+[debug] [2017-06-24T19:30:31.744Z] >>> HTTP REQUEST GET https://appengine.googleapis.com/v1/apps/pwahack-f47d4  
+ Sun Jun 25 2017 02:30:31 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-06-24T19:30:31.745Z] >>> HTTP REQUEST GET https://apikeys.googleapis.com/v1/projects/pwahack-f47d4/apiKeys  
+ Sun Jun 25 2017 02:30:31 GMT+0700 (SE Asia Standard Time)

@@ -8,7 +8,7 @@ self.addEventListener('install', function(e) {
                 '/index.html?homescreen=1',
                 '/?homescreen=1',
                 '/styles/styles.css',
-                '/scritps.js'
+                '/script.js'
             ]);
         })
     );
