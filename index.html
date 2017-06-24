@@ -7,6 +7,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Title</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <link rel="manifest" href="/manifest.json">
+    <link rel="stylesheet" href="./styles/styles.css">
 </head>
 
 <body>
@@ -68,10 +70,25 @@
     </div>
 
 
+    <script src="https://www.gstatic.com/firebasejs/4.1.3/firebase.js"></script>
+    <script>
+        // Initialize Firebase
+        var config = {
+            apiKey: "AIzaSyCR3sEdxinIBZ-WPvNHu8UywVeDVA5U5lk",
+            authDomain: "pwahack-f47d4.firebaseapp.com",
+            databaseURL: "https://pwahack-f47d4.firebaseio.com",
+            projectId: "pwahack-f47d4",
+            storageBucket: "pwahack-f47d4.appspot.com",
+            messagingSenderId: "41116340419"
+        };
+        firebase.initializeApp(config);
+    </script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
     <script src="./script/script.js"></script>
+
+
 </body>
 
 </html>

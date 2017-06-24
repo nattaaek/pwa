@@ -1,34 +1,36 @@
 $('#random').on("click", function random(e) {
     result = Math.floor((Math.random() * 6) + 1);
 
-    $('#category').children().removeAttr('style');
+    $('#category').children().removeClass('randomSelect');
 
     switch (result) {
         case 1:
-            $('#cookedToOrder').css("border", " 5px solid red");
+            $('#cookedToOrder').addClass("randomSelect");
             category = "อาหารตามสั่ง";
             break;
         case 2:
-            $('#dessert').css("border", " 5px solid red");
+            $('#dessert').addClass("randomSelect");
             category = "ของหวาน";
             break;
         case 3:
-            $('#noodle').css("border", " 5px solid red");
+            $('#noodle').addClass("randomSelect");
             category = "อาหาร \"เส้น\"";
             break;
         case 4:
-            $('#buffet').css("border", " 5px solid red");
+            $('#buffet').addClass("randomSelect");
             category = "บุฟเฟต์";
             break;
         case 5:
-            $('#vegeterian').css("border", " 5px solid red");
+            $('#vegeterian').addClass("randomSelect");
             category = "อาหารมังสะวิรัติ";
             break;
         case 6:
-            $('#clean').css("border", " 5px solid red");
+            $('#clean').addClass("randomSelect");
             category = "อาหารคลีน";
             break;
         default:
             break;
     }
 });
+
+$('#category').children().hasClass('border')
