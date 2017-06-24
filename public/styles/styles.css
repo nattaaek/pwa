@@ -3,5 +3,43 @@
 }
 
 .cookedToOrder {
-    width: height:
+    background-image: url("../images/a.jpg");
+    height: 250px;
+    width: 100%;
+    margin: 5px;
+}
+
+.dessert {
+    background-image: url("../images/bb.jpg");
+    height: 250px;
+    width: 100%;
+    margin: 5px;
+}
+
+.noodle {
+    background-image: url("../images/c.jpg");
+    height: 250px;
+    width: 100%;
+    margin: 5px;
+}
+
+.buffet {
+    background-image: url("../images/dd.jpg");
+    height: 250px;
+    width: 100%;
+    margin: 5px;
+}
+
+.vegeterian {
+    background-image: url("../images/e.jpg");
+    height: 250px;
+    width: 100%;
+    margin: 5px;
+}
+
+.clean {
+    background-image: url("../images/f.jpg");
+    height: 250px;
+    width: 100%;
+    margin: 5px;
 }
