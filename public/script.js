@@ -32,6 +32,7 @@ $('#random').on("click", function random(e) {
             break;
     }
     $('.type').text(category);
+    $('#intro').hide();
 });
 
 
