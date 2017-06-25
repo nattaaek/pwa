@@ -1,7 +1,10 @@
+$('#food').hide();
+
 $('#random').on("click", function random(e) {
     result = Math.floor((Math.random() * 6) + 1);
 
     $('#category').children().removeClass('randomSelect');
+
 
     switch (result) {
         case 1:
@@ -32,6 +35,8 @@ $('#random').on("click", function random(e) {
             break;
     }
     $('.type').text(category);
+    $('#intro').hide();
+    $('#food').show();
 });
 
 

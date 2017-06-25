@@ -2,6 +2,14 @@
     border: 3px solid greenyellow;
 }
 
+.visible {
+    visibility: visible;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
 .cookedToOrder {
     background-image: url("../images/a.jpg");
     background-size: 100% auto;
@@ -20,6 +28,7 @@
 
 .noodle {
     background-image: url("../images/c.jpg");
+    background-size: 100% auto;
     height: 250px;
     width: 100%;
     margin: 5px;
